@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-background: 222 47% 4%;
+    --color-surface: 222 47% 7%;
+    --color-surface-elevated: 222 47% 10%;
+    --color-surface-subtle: 222 47% 12%;
+    
+    --color-border: 217 33% 17%;
+    --color-border-strong: 217 33% 25%;
+    
+    --color-text-primary: 210 40% 98%;
+    --color-text-secondary: 215 20% 75%;
+    --color-text-muted: 215 16% 50%;
+    
+    --color-brand: 189 94% 43%;
+    --color-brand-hover: 189 94% 48%;
+    --color-brand-subtle: 189 94% 43% / 0.15;
+    
+    --color-success: 158 64% 52%;
+    --color-warning: 38 92% 50%;
+    --color-danger: 346 87% 53%;
+    --color-info: 199 89% 48%;
+    
+    --color-verification: 158 64% 52%;
+    --color-integrity: 189 94% 43%;
+    --color-blockchain: 38 92% 50%;
+    --color-off-chain: 238 84% 67%;
+    --color-tampered: 346 87% 53%;
+  }
+
+  .light {
+    --color-background: 210 40% 98%;
+    --color-surface: 0 0% 100%;
+    --color-surface-elevated: 210 40% 96%;
+    --color-surface-subtle: 210 40% 93%;
+    
+    --color-border: 214 32% 91%;
+    --color-border-strong: 214 32% 82%;
+    
+    --color-text-primary: 222 47% 11%;
+    --color-text-secondary: 215 16% 40%;
+    --color-text-muted: 215 16% 60%;
+  }
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #040812;
+  color: #f8fafc;
+}
